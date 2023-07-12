@@ -1,0 +1,72 @@
+body {
+    padding: 20px;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+}
+
+/* Camper */
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: #dcb783;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.established {
+    font-style: italic;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 5px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.flavor,
+.dessert {
+    width: 49%;
+    text-align: left;
+}
+
+.price {
+    width: 49%;
+    text-align: right;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+hr {
+    background-color: brown;
+    height: 2px;
+    border: 2px solid brown;
+}
+
+img {
+    margin-top: -20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1,
+h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
